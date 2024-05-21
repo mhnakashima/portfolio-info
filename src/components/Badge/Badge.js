@@ -5,12 +5,12 @@ import { mdiReload } from '@mdi/js';
 
 const Badge = ({ icon, label, text }) => {
     return (
-        <div className='items flex'>
+        <div className='items flex mb-4 items-center'>
             <Avatar>
                 <Icon path={icon ?? mdiReload} size={`1rem`} />
             </Avatar>
             <div className='ml-3 description'>
-                <span className='bagde--label'>{label ?? ''}</span>
+                <span className='bagde--label text-sm'>{label ?? ''}</span>
                 <h4 className='bagde--text text-base font-bold'>{text ?? ''}</h4>
             </div>
         </div>

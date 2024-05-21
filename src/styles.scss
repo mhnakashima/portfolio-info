@@ -1,13 +1,16 @@
 @import './assets/scss/tailwind';
 
+
 #app-menu-info{
-    font-family: 'Open Sans', 'Lato', sans-serif;
+    padding: 2.2rem 1rem;
+}
+
+#app-menu-info, .text{
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Open sans', sans-serif;
 }
 
-.text{
-    font-family: 'Lato', sans-serif;
-}
+
