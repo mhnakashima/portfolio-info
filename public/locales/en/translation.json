@@ -1,0 +1,28 @@
+{
+  "header": {
+    "subtitle": "Front end Engineer",
+    "description": "Front end Engineer with 15 years of experience, used to work with small and bigger teams, developing solutions like apps, interfaces, websites, helping colleagues to developer themselves helping them with Front end technical knowledge, proven experience developing solutions for companies and clients."
+  },
+  "contact-details": {
+    "lbl-title": "Contact",
+    "lbl-email": "Email",
+    "lbl-website": "Website",
+    "lbl-linkedin": "Linkedin",
+    "lbl-github": "Github"
+  },
+  "personal-details": {
+    "lbl-title": "Personal Details",
+    "lbl-work-exp": "Work Exp.",
+    "lbl-education": "Education.",
+    "lbl-current-occupation": "Current</br>Occupation.",
+    "lbl-languages": "languages",
+    "lbl-date-birth": "Date of Birth.",
+    "value-current-occupation": "Software Engineer",
+    "value-date-birth": "11/13/1987",
+    "value-education": "Pontifícia Universidade Católica - PUC - MG",
+    "value-languages": [
+      "PT-BR: Native", "English: B2"
+    ],
+    "value-work-exp": "15 years"
+  }
+}
