@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import App from './App';
+import { createRoot } from 'react-dom/client';
+
+// import i18n (needs to be bundled ;)) 
+import './locales/i18n';
 
 const mount = (el) => {
     if(!el){
         return;
     }
 
-    ReactDom.render(<App />, el);
+    const root = createRoot(el);
+    root.render(<App />);
 }
 
 if (process.env.NODE_ENV === 'development') {

@@ -27,7 +27,6 @@ const PersonalDetails = () => {
                         <ul className='list-none'>
                             <li>PT-BR: Native</li>
                             <li>English: B2</li>
-                            <li>Spanish: A1</li>
                         </ul>
                     </div>
                 </div>
