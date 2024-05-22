@@ -1,10 +1,10 @@
-import React from 'react';
-import { getByText, render, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { Badge } from './Badge';  // Adjust the import path as necessary
-import Icon from '@mdi/react';
-import { mdiReload } from '@mdi/js';
-import Avatar from '../Avatar/Avatar';
+import { render, waitFor } from '@testing-library/react';
+import React from 'react';
+import { Badge } from './Badge'; // Adjust the import path as necessary
+
+// Mocking SASS import
+jest.mock('./badge.scss', () => ({}));  
 
 // Mocking external libraries
 jest.mock('@mdi/react', () => {

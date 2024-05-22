@@ -12,8 +12,8 @@ const Badge = ({ icon, label, text }) => {
                 <Icon path={icon ?? mdiReload} size={`1rem`} />
             </Avatar>
             <div className='ml-2 description'>
-                <span className='bagde--label text-sm'>{label ?? ''}</span>
-                <h4 className='bagde--text font-semibold -mt-2'>{text ?? ''}</h4>
+                <span className='bagde--label font-light text-sm'>{label ?? ''}</span>
+                <h4 className='bagde--text font-semibold -mt-1'>{text ?? ''}</h4>
             </div>
         </div>
     )

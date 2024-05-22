@@ -1,5 +1,5 @@
 import React from 'react';
-import { PersonalDetails } from "./PersonalDetails";
+import PersonalDetails from "./PersonalDetails";
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 

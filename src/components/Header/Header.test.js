@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 // Mocking SASS import
-jest.mock('./Header.scss', () => ({}));  // Adjust path as necessary
+jest.mock('./Header.scss', () => ({}));  
 
 // Mock the logo image import
 jest.mock('./../../assets/images/profile.webp', () => 'mocked-logo-path');
