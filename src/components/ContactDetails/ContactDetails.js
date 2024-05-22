@@ -1,11 +1,14 @@
 import React from "react";
 import { Badge } from "../Badge/Badge";
 import { mdiEmail, mdiGithub, mdiLinkedin, mdiWebBox } from "@mdi/js";
+import { useTranslation } from "react-i18next";
 
 const ContactDetails = () => {
+    const { t } = useTranslation();
+
     return (
         <div className='section mb-4' data-testid="contactDetails">
-            <h3 className='text-lg font-bold'>Contact Details</h3>
+            <h3 className='text-lg font-bold'>{t('contact-details.lbl-title')}</h3>
 
             <div className='mt-3 grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4'>
                 <Badge icon={mdiEmail} label={`Email`} text={`mhnakashima@gmail.com`} />

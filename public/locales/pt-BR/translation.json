@@ -1,5 +1,28 @@
 {
   "header": {
+    "subtitle": "Engenheiro Front End",
     "description": "Engenheiro de Front end com 15 anos de experiência, acostumado a trabalhar com equipes pequenas e grandes, desenvolvendo soluções como aplicativos, interfaces, websites, ajudando colegas a se desenvolverem, auxiliando-os com conhecimento técnico de Front end, com experiência comprovada no desenvolvimento de soluções para empresas e clientes."
+  },
+  "contact-details": {
+    "lbl-title": "Contato",
+    "lbl-email": "Email",
+    "lbl-website": "Website",
+    "lbl-linkedin": "Linkedin",
+    "lbl-github": "Github"
+  },
+  "personal-details": {
+    "lbl-title": "Detalhes Pessoais",
+    "lbl-work-exp": "Exp. de Trabalho.",
+    "lbl-education": "Educação.",
+    "lbl-current-occupation": "Ocupação atual.",
+    "lbl-languages": "Línguas.",
+    "lbl-date-birth": "Data de Nasc.",
+    "value-current-occupation": "Engenheiro de Software na Ciandt (2022)",
+    "value-date-birth": "13/11/1987",
+    "value-education": "Pontifícia Universidade Católica - PUC - MG",
+    "value-languages": [
+      "PT-BR: Nativo", "Inglês: B2"
+    ],
+    "value-work-exp": "15 anos"
   }
 }
