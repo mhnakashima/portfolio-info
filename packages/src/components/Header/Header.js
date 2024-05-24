@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from './../../assets/images/profile.webp';
+import logo from '../../assets/images/profile.webp';
 
 import './Header.scss';
 import { useTranslation } from "react-i18next";
