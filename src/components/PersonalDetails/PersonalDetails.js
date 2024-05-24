@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Trans, useTranslation } from "react-i18next";
 
 const PersonalDetails = () => {
     const { t } = useTranslation();
-    const languageItems = t('personal-details.value-languages', { returnObjects: true });
+    const [ languageItems, setLanguages ] = useState([]);
+
+    useEffect(() => {
+        const getData = async () => {
+            const value = await t('personal-details.value-languages', { returnObjects: true }); 
+            setLanguages(Object.values(value));
+        } 
+
+        getData();
+    }, []);
 
     return (
         <div data-testid="personalDetails" className='section mb-4'>
@@ -28,13 +37,15 @@ const PersonalDetails = () => {
                 <div className='grid grid-cols-2 items-center mb-4'>
                     <span className='text-sm font-light'>{t('personal-details.lbl-languages')}</span>
                     <div className='text-lg font-light'>
-                        <ul className="list-none">
-                            {languageItems.map((item, index) => (
-                                <li key={index}>
-                                    <Trans>{item}</Trans>
-                                </li>
-                            ))}
-                        </ul>
+                        {languageItems.length !== 0 && (
+                            <ul className="list-none">
+                                {languageItems.map((item, index) => (
+                                    <li key={index}>
+                                        <Trans>{item}</Trans>
+                                    </li>
+                                ))}
+                            </ul>
+                        )}
                     </div>
                 </div>
 
